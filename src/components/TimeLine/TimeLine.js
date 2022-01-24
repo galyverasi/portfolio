@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am a full-stack web developer based in Denver, CO. After 13 years in retail and visual merchandising, I decided to pursue a career in web development.
+      I am a full-stack web developer based in Denver, CO. After 13 years in retail and visual merchandising, 
+      I decided make a career change and pursue greater opportunities in web development.
+      I believe in humanizing technology and I have a deep appreciation for design and user experience.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
