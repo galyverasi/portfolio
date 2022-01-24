@@ -5,13 +5,13 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "15px" }}>
-            <DiCssdeck size="3rem" /> <Span>GA</Span>
-          </a> 
+          <DiCssdeck size="3rem" /> <Span>GA</Span>
+        </a>
       </Link>
     </Div1>
     <Div2>
@@ -38,13 +38,13 @@ const Header = () =>  (
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/galyverasi">
-        <AiFillGithub size="3rem" />      
+        <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/galyverasi">
-        <AiFillLinkedin size="3rem" />      
+        <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.instagram.com/galyverasi">
-        <AiFillInstagram size="3rem" />      
+        <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
